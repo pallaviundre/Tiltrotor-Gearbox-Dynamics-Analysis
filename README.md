@@ -19,16 +19,23 @@ The work focuses on understanding the **limitations of linearization** and the i
 
 ## Repository Structure
 ├── AE233M_PROJECT.pdf               % Detailed project report
+
 ├── tiltrotor_gearbox_nonlinear.m    % Nonlinear gearbox dynamics simulation
+
 ├── tiltrotor_gearbox_linear.m       % Linearized system response
+
 ├── tiltrotor_transfer_function.m   % Poles, zeros & frequency analysis
+
 ├── equilibrium_solver.m             % Equilibrium point computation
+
 └── README.md
 
+---
 Key Results:
 -Linearized model accurately predicts response only for small torque perturbations
 -Large torque inputs show significant deviation due to nonlinear damping
 -Dominant complex poles govern vibration characteristics
 
+---
 Tools Used:
 -MATLAB | ODE45 | State-space modeling | Linearization | Vibration analysis
