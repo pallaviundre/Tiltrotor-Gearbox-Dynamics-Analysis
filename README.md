@@ -20,15 +20,14 @@ The work focuses on understanding the **limitations of linearization** and the i
 ## Repository Structure
 ├── AE233M_PROJECT.pdf               % Detailed project report
 
+├── README.md
+
 ├── tiltrotor_gearbox_nonlinear.m    % Nonlinear gearbox dynamics simulation
 
 ├── tiltrotor_gearbox_linear.m       % Linearized system response
 
-├── tiltrotor_transfer_function.m   % Poles, zeros & frequency analysis
+└── tiltrotor_transfer_function.m   % Poles, zeros & frequency analysis
 
-├── equilibrium_solver.m             % Equilibrium point computation
-
-└── README.md
 
 ---
 Key Results:
