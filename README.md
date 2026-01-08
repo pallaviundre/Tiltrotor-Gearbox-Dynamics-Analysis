@@ -31,9 +31,13 @@ The work focuses on understanding the **limitations of linearization** and the i
 
 ---
 Key Results:
+
 -Linearized model accurately predicts response only for small torque perturbations
+
 -Large torque inputs show significant deviation due to nonlinear damping
+
 -Dominant complex poles govern vibration characteristics
+
 
 ---
 Tools Used:
