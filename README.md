@@ -1,20 +1,34 @@
-# Tiltrotor-Gearbox-Dynamics-Analysis
-MATLAB-based modeling and simulation of a tiltrotor aircraft gearbox, including nonlinear damping and cubic friction effects.
+# Tiltrotor Gearbox Dynamics Analysis  
+**AE233M – Introduction to Vibrations | IIT Kanpur**
 
-OVERVIEW :
-This project models and simulates the dynamic behavior of a tiltrotor aircraft gearbox using MATLAB. The model includes nonlinear damping and cubic friction effects. The system is also linearized, and transfer functions are obtained to compare nonlinear and linear system responses.
+## Overview
+This project presents the dynamic and vibration analysis of a **tiltrotor gearbox system** incorporating **nonlinear damping** effects. The gearbox is modeled as a **three degree-of-freedom (3-DOF) torsional system**, and its response to step torque inputs is studied using both **nonlinear and linearized models**.
 
-OBJECTIVE :
-1.Model gearbox dynamics considering real-world nonlinearities.
-2.Apply linearization techniques for simplified analysis.
-3.Compare linear and nonlinear time-domain responses.
+The work focuses on understanding the **limitations of linearization** and the impact of nonlinear damping on gearbox dynamics under high torque loading.
 
-METHODS USED:
-1.MATLAB/Simulink modeling
-2.Nonlinear system simulation
-3.Linearization via state-space representation
-4.Transfer function derivation
+---
 
-RESULT :
-1.Nonlinear vs. linear model performance compared across multiple input cases.
-2.Identified conditions where linear models closely match nonlinear behavior.
+## Objectives
+- Develop nonlinear equations of motion for a tiltrotor gearbox  
+- Simulate time-domain response to step torque inputs  
+- Linearize the system about an equilibrium operating point  
+- Compare linear and nonlinear system responses  
+- Perform transfer function and frequency-domain analysis  
+
+---
+
+## Repository Structure
+├── AE233M_PROJECT.pdf               % Detailed project report
+├── tiltrotor_gearbox_nonlinear.m    % Nonlinear gearbox dynamics simulation
+├── tiltrotor_gearbox_linear.m       % Linearized system response
+├── tiltrotor_transfer_function.m   % Poles, zeros & frequency analysis
+├── equilibrium_solver.m             % Equilibrium point computation
+└── README.md
+
+Key Results:
+-Linearized model accurately predicts response only for small torque perturbations
+-Large torque inputs show significant deviation due to nonlinear damping
+-Dominant complex poles govern vibration characteristics
+
+Tools Used:
+-MATLAB | ODE45 | State-space modeling | Linearization | Vibration analysis
